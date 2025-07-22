@@ -51,19 +51,19 @@ Based on the message, ESP32 triggers GPIO pins
 GPIO signal controls devices like laptop power via relay/servo
 
 ## Technologies Used
-ESP32 (Arduino framework)
+* ESP32 (Arduino framework)
 
-Telegram Bot API
+* Telegram Bot API
 
 ### Previous Design
 
-Python (Raspberry Pi backend)
+* Python (Raspberry Pi backend)
 
-Next.js (Raspberry Pi frontend)
+* Next.js (Raspberry Pi frontend)
 
-GPIO for hardware control
+* GPIO for hardware control
 
-Wi-Fi for remote connectivity
+* Wi-Fi for remote connectivity
 
 ## Security
 Only authorized Telegram users can issue commands
