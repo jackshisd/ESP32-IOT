@@ -2,7 +2,7 @@
 ESP32 GPIO + Raspberry Pi Zero W + Telegram Integration
 
 ## Overview
-This project started in my dorm room as a DIY home automation solution using a [Raspberry Pi Zero W][(#sample-section](https://github.com/jackshisd/Pi-Zero-Server)). Initially, I hosted a Next.js web server on the Pi to monitor system status and control servos for powering on devices like my laptop or room lights. The frontend was built in JavaScript, and the backend logic was handled in Python.
+This project started in my dorm room as a DIY home automation solution using a [Raspberry Pi Zero W](https://github.com/jackshisd/Pi-Zero-Server)). Initially, I hosted a Next.js web server on the Pi to monitor system status and control servos for powering on devices like my laptop or room lights. The frontend was built in JavaScript, and the backend logic was handled in Python.
 
 To enhance portability and security, I later migrated to a Telegram bot-based system using an ESP32.
 
