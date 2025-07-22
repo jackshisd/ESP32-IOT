@@ -8,38 +8,38 @@ To enhance portability and security, I later migrated to a Telegram bot-based sy
 
 ## Evolution of the Project
 ### Original (Raspberry Pi Web Server)
-*Device: Raspberry Pi Zero W
+* Device: Raspberry Pi Zero W
 
-*Frontend: Next.js (JavaScript)
+* Frontend: Next.js (JavaScript)
 
-*Backend: Python
+* Backend: Python
 
 Functions:
 
-*Display Pi system status (CPU, RAM, etc.)
+* Display Pi system status (CPU, RAM, etc.)
 
-*Control servo to physically press buttons (e.g., laptop power, light switch)
+* Control servo to physically press buttons (e.g., laptop power, light switch)
 
-*Security: Password protection for HTTP routes
+* Security: Password protection for HTTP routes
 
 ### Upgraded (ESP32 + Telegram Bot)
-*Device: ESP32 connected to school Wi-Fi
+* Device: ESP32 connected to school Wi-Fi
 
-*Control Interface: Telegram Bot
+* Control Interface: Telegram Bot
 
 Functions:
 
-*Send bot commands from phone to toggle GPIO pins
+* Send bot commands from phone to toggle GPIO pins
 
-*GPIO controls a relay or transistor to power on devices remotely
+* GPIO controls a relay or transistor to power on devices remotely
 
 Advantages:
 
-*Mobile-friendly control
+* Mobile-friendly control
 
-*Works over internet without exposing a web server
+* Works over internet without exposing a web server
 
-*Secure via Telegram’s built-in user authentication
+* Secure via Telegram’s built-in user authentication
 
 ## How It Works
 Telegram Bot is set up using BotFather
